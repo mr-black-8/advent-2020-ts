@@ -17,10 +17,6 @@ try {
   process.exit();
 }
 
-// From memory all inputs will be a list of numbers
-// if that's not the case this year, adjust below (data will be string[] without transformation)
-const transformedInput = data.map(Number);
-
 console.log(`Advent of Code 2020!\nhttps://adventofcode.com/\n\n`);
 console.log(`Running solutions for day ${day}\n`);
 
@@ -33,5 +29,5 @@ if (!solutionOne || !solutionTwo) {
   process.exit();
 }
 
-console.log(`Day ${day}, Task 1: ${solutionOne(transformedInput)}`);
-console.log(`Day ${day}, Task 2: ${solutionTwo(transformedInput)}`);
+console.log(`Day ${day}, Task 1: ${solutionOne(data)}`);
+console.log(`Day ${day}, Task 2: ${solutionTwo(data)}`);

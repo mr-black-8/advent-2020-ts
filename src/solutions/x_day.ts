@@ -3,12 +3,16 @@
  * run `npm run day <day>` to execute
  */
 
-// Implement & return solution one here (note input type & adjust if necessary):
-export const solutionOne = (input: number[]) => {
-  return input;
+// Implement & return solution one here:
+export const solutionOne = (input: string[]) => {
+  // Placeholder transformation, input will not be numbers for all challenges
+  const transformedInput = input.map(Number);
+  return transformedInput;
 };
 
-// Implement and return solution two here (note input type & adjust if necessary):
-export const solutionTwo = (input: number[]) => {
-  return input;
+// Implement and return solution two here:
+export const solutionTwo = (input: string[]) => {
+  // Placeholder transformation, input will not be numbers for all challenges
+  const transformedInput = input.map(Number);
+  return transformedInput
 };
